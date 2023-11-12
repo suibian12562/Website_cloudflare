@@ -5,7 +5,7 @@ open_graph: true
 user:
   name: Sui Bian
   first_name: Sui
-  last_name: Sian
+  last_name: Bian
   email: 
   domain: liaozuhao.top
   avatar: /img/avatar.jpg
@@ -21,8 +21,8 @@ favicon:
   webmanifest:
   visibilitychange: false
   hidden: /failure.ico # Displays an icon when not visible
-  showText: favicon.showText
-  hideText: favicon.hideText
+  showText: (/≧▽≦/)咦！又好了！
+  hideText: (●—●)喔哟，崩溃啦！
 
 # Theme resource files or plug-ins
 assets:
@@ -124,7 +124,7 @@ banner:
 # Sidebar settings
 sidebar:
   typedTextPrefix: I`m
-  typedText: a minecraft player
+  typedText: ["a minecraft player","a c++ coder"]
   info: 
     - key: sidebar.residence
       val: Mars
@@ -198,7 +198,7 @@ archive:
 creative_commons:
   license: by-nc-sa
   language: deed.zh
-  post: false
+  post: true
   clipboard: false
 
 # Customize the cover image
