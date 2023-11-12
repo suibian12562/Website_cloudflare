@@ -124,7 +124,7 @@ banner:
 # Sidebar settings
 sidebar:
   typedTextPrefix: I`m
-  typedText: 
+  typedText: a minecraft player
   info: 
     - key: sidebar.residence
       val: Mars
@@ -160,7 +160,7 @@ footer:
   copyrightYear:
   # 
   live_time:
-    enable: false
+    enable: true
     prefix: footer.tips
     start_time: 04/10/2022 17:00:00
   #
