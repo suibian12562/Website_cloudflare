@@ -5,3 +5,4 @@ db.json
 public/
 EOF
 deploy.js
+aliyun-oss.bat
