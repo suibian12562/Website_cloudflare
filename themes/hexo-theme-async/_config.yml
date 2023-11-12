@@ -136,7 +136,7 @@ sidebar:
 # About page settings
 about:
 	insert: none # before | after | none
-  title: 
+  title: 避风港
   introduction: 
   blog: 
     <ul class="trm-list">
