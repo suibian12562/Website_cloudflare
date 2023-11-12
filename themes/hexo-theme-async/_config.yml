@@ -3,9 +3,9 @@ open_graph: true
 
 # User info
 user:
-  name: suibian
-  first_name: sui
-  last_name: bian
+  name: Sui Bian
+  first_name: Sui
+  last_name: Sian
   email: 
   domain: liaozuhao.top
   avatar: /img/avatar.jpg
@@ -131,7 +131,7 @@ sidebar:
   social:
     - name: Github
       icon: fab fa-github
-      url: https://github.com
+      url: https://github.com/suibian12562
 
 # About page settings
 about:
@@ -219,7 +219,7 @@ lazyload:
 notice_outdate:
   enable: false
   style: flat # style: simple/flat
-  limit_day: 365 # When will it be shown
+  limit_day: 180 # When will it be shown
   position: top # position: top/bottom
 #### Article configuration end ###
 
@@ -259,7 +259,7 @@ comment:
 # Theme mode 
 theme: 
   switch: true 
-  default: style-dark # style-light style-dark
+  default: style-light # style-light style-dark
 
 # Service Worker
 sw: false
@@ -267,7 +267,7 @@ sw: false
 # Post wordcount
 # https://github.com/willin/hexo-wordcount
 wordcount:
-  enable: false
+  enable: true
   count: true
   time: true
 
@@ -276,14 +276,14 @@ wordcount:
 # https://katex.org/
 katex:
   copy_tex: true
-  global: false
+  global: true
   # Options are for katex rendering options: https://katex.org/docs/options.html
   # In page katex options are also possible and will be merged
   options: {}
 
 # Blog search
 search:
-  enable: false
+  enable: true
   type: engine #local engine
   # href: 'https://www.google.com/search?q=site:'
   # href: "https://www.baidu.com/s?wd=site:"
@@ -293,7 +293,7 @@ search:
 # Think of swup as being pjax on steroids. The concepts are similar to those used in barba.js or other transition libraries.
 # https://swup.js.org/
 # Whether swup is enabled
-swup: false
+swup: true
 
 # Datetime formatting
 datetime_foramt:
