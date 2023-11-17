@@ -21,8 +21,8 @@ favicon:
   webmanifest:
   visibilitychange: false
   hidden: /failure.ico # Displays an icon when not visible
-  showText: (/≧▽≦/)咦！又好了！
-  hideText: (●—●)喔哟，崩溃啦！
+  showText: 
+  hideText: 
 
 # Theme resource files or plug-ins
 assets:
@@ -135,7 +135,7 @@ sidebar:
 
 # About page settings
 about:
-	insert: none # before | after | none
+  insert: none # before | after | none
   title: 避风港
   introduction: 
   blog: 
@@ -179,7 +179,7 @@ reward:
 
 # Article table of contents
 toc:
-  enable: false
+  enable: true
   list_number: true
   post_title: true
   max_depth: 3
@@ -217,7 +217,7 @@ lazyload:
 
 # Displays outdated notice for a post (文章过期提醒)
 notice_outdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
   limit_day: 180 # When will it be shown
   position: top # position: top/bottom
@@ -267,7 +267,7 @@ sw: false
 # Post wordcount
 # https://github.com/willin/hexo-wordcount
 wordcount:
-  enable: false
+  enable: true
   count: true
   time: true
 
@@ -363,7 +363,7 @@ layout:
   paginator: _widget/paginator
   fixed_btn: _widget/fixed-btn
   post_toc: _widget/post-toc
-	about_card: _widget/about-card
+  about_card: _widget/about-card
   sidebar_user: _partial/sidebar/card/user
   sidebar_social: _partial/sidebar/card/social
   sidebar_info: _partial/sidebar/card/info
